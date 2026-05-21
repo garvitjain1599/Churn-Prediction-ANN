@@ -37,11 +37,12 @@ The project also includes a Streamlit web application for interactive prediction
 Customer-Churn-Prediction/
 │
 ├── app.py                     # Streamlit application
-├── model.h5                   # Trained ANN model
+├── model/model.h5                   # Trained ANN model
 ├── requirements.txt           # Project dependencies
-├── churn_prediction.ipynb     # Model training notebook
-├── scaler.pkl                 # Saved scaler object
-├── label_encoders.pkl         # Encoders for categorical variables
+├── hyperparametertuningann.ipynb     # Model training notebook
+├── encoder_scaler_pickle_files/scaler.pkl                 # Saved scaler object
+├── encoder_scaler_pickle_files/label_encoder_gender.pkl         # Encoders for gender variable
+├── encoder_scaler_pickle_files/onehot_encoder_geo.pkl         # Encoders for geography variable
 └── README.md
 ```
 
